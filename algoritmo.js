@@ -1,0 +1,22 @@
+document.querySelector("body").innerHTML = `
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ivdTnPl1ND0" title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+    <p>Video Tutorial de Youtube </p>
+
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26327.98180081499!2d-58.59335475247064!3d-34.42681290234597!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bca5a2d0ddb9b1%3A0x2c1a974c67cba1e4!2sTigre%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1680193593408!5m2!1ses-419!2sar"
+        width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <p> Google maps, ubicacion provincia de Tigre</p>
+
+    <iframe style="border-radius:12px"
+        src="https://open.spotify.com/embed/track/0yLdNVWF3Srea0uzk55zFn?utm_source=generator" width="100%" height="352"
+        frameBorder="0" allowfullscreen=""
+        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    <p>Musica extraida de Spotify </p>
+
+    <iframe width="700px" height="500px" src="https://www.mercadolibre.com.ar/" frameborder="0"></iframe>
+    <p> Pagina de Mercado libre en mi pag web </p> 
+`
